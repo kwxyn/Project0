@@ -1,0 +1,126 @@
+                ul {
+                    list-style: none;
+                    overflow: hidden;
+                }
+                
+                li {
+                    float: right;
+                }
+                
+                li a {
+                    color: black;
+                    display: block;
+                    text-align: center;
+                    padding: 10px 10px;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+                
+                li a:hover {
+                    text-decoration: underline;
+                }
+                
+                .logo {
+                    margin-top: 200px;
+                    margin-bottom: 20px;
+                }
+                
+                .bar {
+                    margin: 0 auto;
+                    width: 575px;
+                    border-radius: 30px;
+                    border: 1px solid #ddccdd;
+                }
+                
+                .bar:hover {
+                    box-shadow: 1px 1px 8px 1px #ddccdd;
+                }
+                
+                .searchbar {
+                    height: 45px;
+                    border: none;
+                    width: 500px;
+                    font-size: 16px;
+                    outline: none;
+                }
+                
+                .buttons {
+                    margin-top: 30px;
+                }
+                
+                .button {
+                    background-color: #f5f5f5;
+                    border: none;
+                    color: grey;
+                    font-size: 15px;
+                    padding: 10px 20px;
+                    margin: 5px;
+                    border-radius: 4px;
+                    outline: none;
+                }
+                
+                .button:hover {
+                    border: 1px solid #c8c8c8;
+                    padding: 9px 19px;
+                    color: grey;
+                }
+                
+                h1 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                
+                .form {
+                    width: 500px
+                }
+                
+                .form label {
+                    margin: 5px auto;
+                    font-size: 18px;
+                    display: inline-block;
+                    font-family: Arial, Helvetica, sans-serif;
+                    float: left;
+                }
+                
+                .form input {
+                    margin: 5px auto;
+                    width: 250px;
+                    text-align: left;
+                    float: right;
+                }
+                
+                #fifth {
+                    margin: 5px auto;
+                    position: relative;
+                    left: 60px;
+                    width: 100px;
+                    text-align: left;
+                    float: left;
+                }
+                
+                #sixth {
+                    margin: 5px auto;
+                    width: 100px;
+                    text-align: left;
+                    float: right;
+                }
+                
+                #to {
+                    margin: 5px auto;
+                    position: relative;
+                    left: 75px;
+                    text-align: left;
+                }
+                
+                .advancedButton {
+                    background-color: deepskyblue;
+                    border: none;
+                    color: white;
+                    font-size: 15px;
+                    padding: 10px 20px;
+                    margin-top: 5px;
+                    border-radius: 4px;
+                    outline: none;
+                    float: right;
+                }
